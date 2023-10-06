@@ -36,5 +36,5 @@ then
 		echo "file setting created."
 
 	fi
-	echo 'Everything all right. We're ready to go.'
+	echo 'Everything all right. We are ready to go.'
 fi
