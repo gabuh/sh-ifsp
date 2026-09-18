@@ -17,11 +17,11 @@ else
 	fi
 
 	echo "Downloading Maven..."
-	wget 'https://dlcdn.apache.org/maven/maven-3/3.9.5/binaries/apache-maven-3.9.5-bin.tar.gz'
-	tar -xf 'apache-maven-3.9.5-bin.tar.gz'
+	wget 'https://dlcdn.apache.org/maven/maven-3/3.9.16/binaries/apache-maven-3.9.16-bin.tar.gz'
+	tar -xf 'apache-maven-3.9.16-bin.tar.gz'
 	echo 'moving files...'
-	rm -r 'apache-maven-3.9.5-bin.tar.gz'
-	mv apache-maven-3.9.5 $HOME/Maven
+	rm -r 'apache-maven-3.9.16-bin.tar.gz'
+	mv apache-maven-3.9.16 $HOME/Maven
 	export PATH=$HOME/Maven/bin:${PATH}
 	echo 'Maven has been sucessfully installed'
 	mvn --version
